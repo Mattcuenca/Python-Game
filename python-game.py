@@ -1,6 +1,6 @@
 import random
 
-random = random.number(1, 10)
+number = random.randint(1, 10)
 tries = 1
 
 username = input("Hello, What is your username?")
@@ -19,4 +19,6 @@ if question == "y":
     if guess < number:
         print("too low")
     if guess == number:
-        print("You got it right! the correct number was" number + "Great Guess!")
+        print("You got it right! the correct number was", number + \
+        "Great Guess!")
+
